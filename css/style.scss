@@ -120,4 +120,17 @@ body {
         width: 500px;
         height: 100%;
     }
+    .promise_text li {
+        line-height: 1.5;
+    }
+
+    .service-guide a {
+        border: 2px solid #C61720;
+        width: 570px;
+        border-radius: .3rem;
+    }
+    .service-guide a:hover {
+        color: #C61720 !important;
+        background-color: #F9F06F;
+    }
 }
