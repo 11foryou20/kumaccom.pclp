@@ -89,14 +89,25 @@ body {
   width: 500px;
 }
 
-.service .service_detail .service_group .pc-repair img {
+.service .service_detail .service_group .pc img {
   width: 110px;
   border-width: 6px !important;
 }
 
-.service .service_detail .service_group .pc-repair p {
+.service .service_detail .service_group .pc p {
   margin-left: -2px;
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid #DC3444;
   height: 50px;
   width: 270px;
+}
+
+.service .service_detail .service_group .pc-repair_text ul li,
+.service .service_detail .service_group .pc-purchase_text ul li {
+  line-height: 1.5;
+}
+
+.service .promise_title {
+  background-color: #DC3444;
+  width: 500px;
+  height: 100%;
 }

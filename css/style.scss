@@ -94,7 +94,7 @@ body {
         }
 
         .service_group {
-            .pc-repair {
+            .pc {
                 img {
                     width: 110px;
                     border-width: 6px!important;
@@ -102,12 +102,22 @@ body {
 
                 p {
                     margin-left: -2px;
-                    border-bottom: 4px solid blue;
+                    border-bottom: 4px solid #DC3444;
                     height: 50px;
                     width: 270px;
                 }
             }
-        }
 
+            .pc-repair_text ul li,
+            .pc-purchase_text ul li {
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .promise_title {
+        background-color: #DC3444;
+        width: 500px;
+        height: 100%;
     }
 }
