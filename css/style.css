@@ -26,9 +26,14 @@ body {
   background-color: #F9F06F;
 }
 
-.concept_title span {
+.concept_title p span {
   letter-spacing: 0.1px;
   margin: 0 0.2rem;
+}
+
+.concept_title .pick {
+  -webkit-text-decoration: underline double #DC3444 !important;
+          text-decoration: underline double #DC3444 !important;
 }
 
 .arrow {
@@ -126,6 +131,50 @@ body {
 .service .service-guide a:hover {
   color: #C61720 !important;
   background-color: #F9F06F;
+}
+
+.production .production_detail .production_content a {
+  position: relative;
+  display: inline-block;
+}
+
+.production .production_detail .production_content a img {
+  width: 250px;
+  height: 100%;
+  border: 5px solid #FFFFFF;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.production .production_detail .production_content a p {
+  color: #C61720 !important;
+}
+
+.production .production_detail .production_content a::after {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #DC3444;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.production .production_detail .production_content a:hover img {
+  border: 5px solid #DC3444;
+}
+
+.production .production_detail .production_content a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 .production .production_detail .production_content p {
