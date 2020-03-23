@@ -7,12 +7,15 @@ body {
 }
 
 .nav-link:hover {
-    color     : #C61720;
-    transition: all 0.4s ease;
+    background-color: #FDEE20 !important;
+    // color        : #FFFFFF !important;
+    transition      : all 0.4s ease;
 }
 
-#eyecatch img {
-    width: 90%;
+#eyecatch {
+    img {
+        width: 65%;
+    }
 }
 
 .text-warning {
@@ -203,11 +206,13 @@ body {
 
 #voice {
     background-color: #ffb4b3;
-    height: 1000px;
+    height          : 1000px;
 
-    .title_icon {
-        img {
-            width: 55px;
+    .voice_title {
+        .title_icon {
+            img {
+                width: 55px;
+            }
         }
     }
 
@@ -221,9 +226,34 @@ body {
 
             .voice-text {
                 p {
-                        line-height: 35px;;
+                    line-height: 35px;
+                    ;
                 }
             }
         }
     }
+}
+
+#contact {
+
+    .contact_title {
+        .title_icon {
+            img {
+                width: 55px;
+            }
+        }
+    }
+
+    .contact_reserve {
+        p {
+            big {
+                text-decoration: underline double #DC3444 !important;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #ffcdcc;
+    height          : 400px;
 }
