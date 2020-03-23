@@ -213,7 +213,6 @@ body {
 
 footer {
   background-color: #fee1e1;
-  height: 250px;
 }
 
 footer .company a img {
@@ -222,4 +221,12 @@ footer .company a img {
 
 footer .company .company_detail p {
   line-height: 1.5;
+}
+
+footer .company .footer-sns a {
+  color: #DC3444;
+}
+
+footer .company .footer-sns a i {
+  width: 50px;
 }
