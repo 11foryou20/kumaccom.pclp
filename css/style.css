@@ -212,6 +212,14 @@ body {
 }
 
 footer {
-  background-color: #ffcdcc;
-  height: 400px;
+  background-color: #fee1e1;
+  height: 250px;
+}
+
+footer .company a img {
+  width: 50%;
+}
+
+footer .company .company_detail p {
+  line-height: 1.5;
 }

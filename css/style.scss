@@ -8,7 +8,6 @@ body {
 
 .nav-link:hover {
     background-color: #FDEE20 !important;
-    // color        : #FFFFFF !important;
     transition      : all 0.4s ease;
 }
 
@@ -254,6 +253,20 @@ body {
 }
 
 footer {
-    background-color: #ffcdcc;
-    height          : 400px;
+    background-color: #fee1e1;
+    height          : 250px;
+
+    .company {
+        a {
+            img {
+                width: 50%;
+            }
+        }
+
+        .company_detail {
+            p {
+                line-height: 1.5;
+            }
+        }
+    }
 }
