@@ -184,3 +184,20 @@ body {
 .production .lecture img {
   width: 900px;
 }
+
+#voice {
+  background-color: #ffb4b3;
+  height: 1000px;
+}
+
+#voice .title_icon img {
+  width: 55px;
+}
+
+#voice .voice_detail .voice-content .voice-img img {
+  width: 250px;
+}
+
+#voice .voice_detail .voice-content .voice-text p {
+  line-height: 35px;
+}

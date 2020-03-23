@@ -199,5 +199,31 @@ body {
             width: 900px;
         }
     }
+}
 
+#voice {
+    background-color: #ffb4b3;
+    height: 1000px;
+
+    .title_icon {
+        img {
+            width: 55px;
+        }
+    }
+
+    .voice_detail {
+        .voice-content {
+            .voice-img {
+                img {
+                    width: 250px;
+                }
+            }
+
+            .voice-text {
+                p {
+                        line-height: 35px;;
+                }
+            }
+        }
+    }
 }
