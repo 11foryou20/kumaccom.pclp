@@ -114,6 +114,7 @@ body {
 
 .service .promise_text li {
   line-height: 1.5;
+  border-bottom: 3px solid #ffb4b3;
 }
 
 .service .service-guide a {
@@ -125,4 +126,8 @@ body {
 .service .service-guide a:hover {
   color: #C61720 !important;
   background-color: #F9F06F;
+}
+
+.production .production_detail .production_content p {
+  line-height: 1.5;
 }
