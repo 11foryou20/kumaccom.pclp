@@ -17,7 +17,7 @@
 
     <!-- Style.css -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>パソコン修理・購入ならクマックコム！</title>
 
@@ -27,60 +27,62 @@
 
     <header>
         <!-- ヘッダーバー（上部固定） -->
-        <div class="header_menu container-fluid">
-
-            <nav class="navbar navbar-expand-lg navbar-light row">
-                <!-- ヘッダーロゴ（左） -->
-                <div class="header-logo m-3 col-ms-1">
-                    <a class="navbar-brand" href="https://www.kumac.com/">
-                        <img src="image/logo.png" alt="クマックコムロゴ">
-                    </a>
-
-                </div>
-
-                <!-- ヘッダーメニュー（真ん中） -->
-                <div class="collapse navbar-collapse col-ms-4" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="mx-2">
-                            <a class="nav-link font-weight-bold rounded-pill px-3"
-                                href="https://www.kumac.com/about/">はじめてのお客様へ<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class=" mx-2">
-                            <a class="nav-link font-weight-bold rounded-pill px-3"
-                                href="https://www.kumac.com/pcrepairing/">パソコン修理</a>
-                        </li>
-                        <li class=" mx-2">
-                            <a class="nav-link font-weight-bold rounded-pill px-3"
-                                href="https://www.kumac.com/pcselling/">パソコン販売</a>
-                        </li>
-                        <li class=" mx-2">
-                            <a class="nav-link font-weight-bold rounded-pill px-3"
-                                href="https://www.kumac.com/about/access/">クマックコムの場所</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- 予約ボタン（右） -->
-                <div class="reservation d-flex justify-content-end align-items-center col-ms-4">
-                    <div class="btn-lg mx-3 mt-3 reserve_tel text-center">
-                        <a class="text-dark btn-warning px-3 py-1 rounded" href="tel:0143557719">0143-55-7719
-                            <!-- <img src="" alt="電話番号 0143557719"> -->
+        <div class="header_menu container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- ヘッダーロゴ（左） -->
+                    <div class="header-logo ml-1 col-sm-2">
+                        <a class="navbar-brand" href="https://www.kumac.com/">
+                            <img class="img-responsive" src="image/logo.png" alt="クマックコムロゴ">
                         </a>
-                        <p class="my-2">平日　9:00 - 18:00</p>
+    
                     </div>
-                    <div class="btn btn-danger reserve_page rounded p-3">
-                        <a class="text-light h5" href="https://www.kumac.com/contact/">お問い合わせ</a>
+    
+                    <!-- ヘッダーメニュー（真ん中） -->
+                    <div class="collapse navbar-collapse col-sm-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="mx-2">
+                                <a class="nav-link font-weight-bold rounded-pill px-3"
+                                    href="https://www.kumac.com/about/">はじめてのお客様へ<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class=" mx-2">
+                                <a class="nav-link font-weight-bold rounded-pill px-3"
+                                    href="https://www.kumac.com/pcrepairing/">パソコン修理</a>
+                            </li>
+                            <li class=" mx-2">
+                                <a class="nav-link font-weight-bold rounded-pill px-3"
+                                    href="https://www.kumac.com/pcselling/">パソコン販売</a>
+                            </li>
+                            <li class=" mx-2">
+                                <a class="nav-link font-weight-bold rounded-pill px-3"
+                                    href="https://www.kumac.com/about/access/">クマックコムの場所</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                    
+                    <!-- 予約ボタン（右） -->
+                    <div class="reservation d-flex justify-content-end align-items-center col-sm-4">
+                        <div class="btn-lg mt-3 reserve_tel text-center">
+                            <a class="text-dark btn-warning px-3 py-1 rounded" href="tel:0143557719">0143-55-7719
+                                <!-- <img src="" alt="電話番号 0143557719"> -->
+                            </a>
+                            <p class="my-2">平日　9:00 - 18:00</p>
+                        </div>
+                        <div class="reservation-btn btn btn-danger reserve_page rounded p-2">
+                            <a class="text-light h5" href="https://www.kumac.com/contact/">お問い合わせ</a>
+                        </div>
+                    </div>
+    
+                    <div class="menu-button m-4 col-sm-2">
+                        <button class="navbar-toggler p-3" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
 
-                <div class="menu-button m-4 col-ms-2">
-                    <button class="navbar-toggler p-3" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav>
+            </div>
         </div>
 
 
@@ -89,7 +91,7 @@
     <section id="eyecatch">
         <!-- アイキャッチ画像 -->
         <div
-            class="row bg-danger py-5 mb-5 h-100 d-flex justify-content-center flex-column text-center container-fluid">
+            class="row bg-danger py-5 mb-5 h-100 d-flex justify-content-center flex-column text-center">
             <p class="text-white h2 font-weight-bold text-center">室蘭・伊達・登別のパソコン修理・購入なら！</p>
             <div class="eyecatch_image d-flex justify-content-center">
                 <img src="image/eyecatch1.png" alt="即対応・即納品">
@@ -104,7 +106,7 @@
 
             <div class="repair-guide row my-4 d-flex justify-content-center">
                 <a class="btn-lg btn-light btn-outline-light px-5 text-danger text-decoration-none font-weight-bold"
-                    href="">とにかく相談したい！と<br>お急ぎの方は こちらから ▶︎</a>
+                    href="https://www.kumac.com/contact/">すぐに問い合わせたい場合はこちらから！ ▶︎</a>
             </div>
         </div>
     </section>
@@ -123,7 +125,13 @@
                     <p class="h4 font-weight-bold mt-3 pb-5"><span
                             class="h1 font-weight-bold">動作や表示</span>のスピードが異常に<span
                             class="h1 font-weight-bold">遅い</span>･･･</p>
-                    <p class="pick h2 font-weight-bold my-4">そんなトラブルが起きた時は クマックコム へお電話を！</p>
+                    <p class="pick h1 font-weight-bold my-4">そんなトラブルが起きた時は<br>クマックコム へお電話を！</p>
+                </div>
+                <div class="contact-btn pt-4 d-flex justify-content-center">
+                    <a class="btn-lg btn-light text-center btn-outline-light px-5 text-danger text-decoration-none font-weight-bold"
+                    href="https://www.kumac.com/contact/">
+                    <i class="fas fa-phone-alt text-dark"></i> すぐに問い合わせたい<br>場合はこちらから！</a>
+
                 </div>
                 <p class="arrow display-4 text-center text-danger">▼</p>
 
@@ -131,29 +139,32 @@
                 <div class="concept_detail py-5">
 
                     <!-- その１ -->
-                    <div class="repair-block my-5 d-flex justify-content-center">
+                    <div class="repair-block my-3 d-flex justify-content-center">
                         <div class="block-img">
-                            <img class="rounded-lg mt-2" src="image/block-img1.png" alt="即対応">
+                            <img class="rounded-lg mt-2s w-100" src="image/block-img1.png" alt="即対応">
                             <p class="mt-2 text-center text-white font-weight-bold h1">その１</p>
                         </div>
                         <div class="block-text bg-white d-flex justify-content-center align-items-center">
                             <p class="h1 p-4 mb-0 font-weight-bold text-justify">
-                                とにかく早い修理でお待たせしません！早ければ即日完了！<br>最長でも１週間程度で修理完了！
+                                とにかく早い修理で<br>お待たせしません！<br>早ければ即日完了！<br>最長でも１週間程度で修理完了！
                             </p>
                         </div>
                     </div>
 
                     <!-- その２ -->
-                    <div class="repair-block my-5 py-3 d-flex justify-content-center">
+                    <div class="repair-block mt-5 py-3 d-flex justify-content-center">
                         <div class="block-img">
                             <img class="rounded-lg mt-2" src="image/block-img1.png" alt="即対応">
                             <p class="mt-2 text-center text-white font-weight-bold h1">その２</p>
                         </div>
                         <div class="block-text bg-white d-flex justify-content-center align-items-center">
                             <p class="h1 p-4 mb-0 font-weight-bolder text-justify">
-                                料金が安いのが自慢です！<br>弊社で完結するので外注もメーカー送りも必要なく、安くて時短！
+                                料金が安いのが自慢！<br>弊社で完結するので<br>外注もメーカー送りもなく、安くて時短！
                             </p>
                         </div>
+                    </div>
+                    <div class="check-p">
+                        <p>※ケースによっては部品取り寄せや、修理の1割程度を外注する場合があります。</p>
                     </div>
 
                     <!-- その３ -->
@@ -164,23 +175,30 @@
                         </div>
                         <div class="block-text bg-white d-flex justify-content-center align-items-center">
                             <p class="h1 p-4 mb-0 font-weight-bolder text-justify">
-                                数多い実績を持つクマックコムが<br>あなたの大切なデータの救出作業<br>をすぐに行います！</p>
+                                数多い実績を持つ弊社<br>が、あなたの大切な<br>データの救出作業を<br>迅速丁寧に行います！</p>
                         </div>
                     </div>
 
-                    <div class="service-trigger pt-4 pl-5 d-flex justify-content-center">
+                    <div class="contact-btn pt-4 d-flex justify-content-center">
+                        <a class="btn-lg btn-light btn-outline-light px-5 text-danger text-decoration-none font-weight-bold"
+                        href="https://www.kumac.com/contact/">
+                        <i class="fas fa-phone-alt text-dark"></i> すぐに問い合わせたい場合はこちらから！ ▶︎</a>
+
+                    </div>
+
+                    <div class="service-trigger pl-5 mt-5 d-flex justify-content-center">
                         <div class="trigger-text">
-                            <p class="h3 font-weight-bold mt-5 mb-2 pt-2 text-center">クマックコムの対応が早いのはわかったけど･･･</p>
-                            <p class="h1 font-weight-bold pt-2 text-center">具体的にどんなサービスがあるの？</p>
+                            <p class="h3 font-weight-bold mt-4 mb-2 pt-4 text-center">クマックコムの対応が<br>早いのはわかったけど･･･</p>
+                            <p class="h1 font-weight-bold pt-2 text-center">具体的にどんな<br>サービスがあるの？</p>
                         </div>
 
-                        <div class="trigger-img">
+                        <div class="trigger-img my-3">
                             <img src="image/komatta_man2.png" alt="">
                         </div>
 
                     </div>
 
-                    <p class="arrow display-4 text-center text-danger">▼</p>
+                    <p class="arrow display-4 text-center text-danger pb-5">▼</p>
 
                 </div>
 
@@ -199,7 +217,7 @@
                     <div class="row d-flex justify-content-center">
                         <p
                             class="service_detail-title h4 font-weight-bold text-white p-2 text-center rounded-pill mb-5">
-                            クマックコムのサービス内容</p>
+                            クマックコムのサービス内容</>
                     </div>
 
                     <!-- サービス区分け -->

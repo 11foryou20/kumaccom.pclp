@@ -1,0 +1,45 @@
+@media (max-width: 575px) {
+  body header .header_menu .header-logo {
+    width: 100%;
+    position: relative;
+  }
+  body header .header_menu .header-logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 190%;
+    padding-right: 0;
+  }
+  body header .header_menu .reservation a {
+    font-size: 80%;
+  }
+  body header .header_menu .reservation p {
+    font-size: 70% !important;
+  }
+  body header .header_menu .reservation .reservation-btn {
+    display: none;
+  }
+  body p,
+  body li {
+    font-size: 110% !important;
+  }
+  body .h1 {
+    font-size: 130% !important;
+  }
+  body .concept_title .pick {
+    line-height: 180%;
+  }
+  body .concept_detail .check-p {
+    text-align: right;
+  }
+  body .concept_detail .check-p p {
+    font-size: 90% !important;
+  }
+  body .concept_detail .contact-btn a:hover {
+    background-color: #FDEE20 !important;
+    color: #DC3444 !important;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+}

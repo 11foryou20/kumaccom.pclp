@@ -17,8 +17,10 @@ body {
         background-image: url(../image/eyecatch-bg1.jpg) !important;
     }
 
-    .repair-guide br {
+    .repair-guide {
+        br {
         display: none;
+        }
     }
 }
 
@@ -50,11 +52,9 @@ body {
 
 .concept_detail {
     background-color: #ffb4b3;
-    height          : 1250px;
+    height          : 110vh;
 
-    .arrow {
-        margin-top: -35px;
-    }
+
 }
 
 .repair-block {
@@ -279,7 +279,7 @@ footer {
 
                 i {
                     .fab {
-                        font-size: -webkit-xxx-large !important;
+                        font-size: large !important;
                     }
                 }
             }

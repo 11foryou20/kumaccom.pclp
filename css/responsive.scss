@@ -1,18 +1,84 @@
-@media(≥576px) {
+@media (max-width: 575px) {
     body {
-        font-size: 5vw;
 
-        .header_menu {
-            .reserve_tel a {
-                font-size: 9px;
+        header {
+            .header_menu {
+                .header-logo {
+                    width   : 100%;
+                    position: relative;
+
+                    img {
+                        position     : absolute;
+                        top          : 0;
+                        left         : 0;
+                        width        : 30%;
+                        height       : 190%;
+                        padding-right: 0;
+                    }
+                }
+
+                .reservation {
+                    a {
+                        font-size: 80%;
+                    }
+
+                    p {
+                        font-size: 70% !important;
+                    }
+
+                    .reservation-btn {
+                        display: none;
+                    }
+                }
             }
-
         }
 
-        #eyecatch {
-            .repair-guide br {
-                display: block;
+        p,
+        li {
+            font-size: 110% !important;
+        }
+
+        .h1 {
+            font-size: 130% !important;
+        }
+
+        .concept_title {
+            .pick {
+                line-height: 180%;
+
             }
         }
+
+        .concept_detail {
+            .check-p {
+                text-align: right;
+
+                p {
+                    font-size: 90% !important;
+                }
+            }
+
+            .contact-btn {
+                a:hover {
+                    background-color: #FDEE20 !important;
+                    color           : #DC3444 !important;
+                    transition      : all 0.2s ease;
+                }
+            }
+        }
+
+
     }
 }
+
+// 小デバイス（横向きモバイル, 576px 以上）
+@media (min-width: 576px) {}
+
+// 中デバイス（タブレット, 768px 以上）
+@media (min-width: 768px) {}
+
+// 大デバイス（デスクトップ, 992px 以上）
+@media (min-width: 992px) {}
+
+// 特大デバイス（ワイド・デスクトップ, 1200px 以上）
+@media (min-width: 1200px) {}
