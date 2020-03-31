@@ -12,8 +12,13 @@ body {
 }
 
 #eyecatch {
-    img {
-        width: 65%;
+    .bg {
+        height: 200px;
+        background-image: url(../image/eyecatch-bg1.jpg) !important;
+    }
+
+    .repair-guide br {
+        display: none;
     }
 }
 
@@ -253,8 +258,7 @@ body {
 }
 
 footer {
-    background-color   : #fee1e1;
-    // height          : 250px;
+    background-color: #fee1e1;
 
     .company {
         a {
@@ -271,10 +275,10 @@ footer {
 
         .footer-sns {
             a {
-                color    : #DC3444;
-                
+                color: #DC3444;
+
                 i {
-                    .fab{
+                    .fab {
                         font-size: -webkit-xxx-large !important;
                     }
                 }
