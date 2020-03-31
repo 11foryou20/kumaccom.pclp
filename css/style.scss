@@ -253,7 +253,7 @@ body {
 }
 
 footer {
-    background-color: #fee1e1;
+    background-color   : #fee1e1;
     // height          : 250px;
 
     .company {
@@ -271,10 +271,12 @@ footer {
 
         .footer-sns {
             a {
-                color: #DC3444;
+                color    : #DC3444;
                 
                 i {
-                    width: 50px;
+                    .fab{
+                        font-size: -webkit-xxx-large !important;
+                    }
                 }
             }
         }
